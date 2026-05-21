@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #C9082A;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  height: 78vh;
+  background-color: #FFFFFF;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #1D428A;
+}
