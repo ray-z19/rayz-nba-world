@@ -9,7 +9,7 @@
 }
 
 .page {
-  height: 78vh;
+  min-height: 78vh;
   background-color: #FFFFFF;
 }
 
