@@ -1,0 +1,8 @@
+.navbar {
+  margin-right: 10px;
+  background-color: #1D428A;
+  border: 2px white solid;
+}
+.navbar:hover {
+  background-color: #1851c4;
+}
