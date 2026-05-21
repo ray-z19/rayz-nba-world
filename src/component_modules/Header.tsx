@@ -13,6 +13,10 @@ const Header = () => {
   const navigateHome = () => {
     navigate("/");
   }
+
+  const navigatePlayerH2H = () => {
+    navigate("/player-h2h");
+  }
   
   return (
     <div className={pageStyles["header"]}>
@@ -30,7 +34,7 @@ const Header = () => {
         </h2>
       </div>
       <div>
-        <button className={buttonStyles["navbar"]}>Player H2H</button>
+        <button className={buttonStyles["navbar"]} onClick={navigatePlayerH2H}>Player H2H</button>
         <button className={buttonStyles["navbar"]}>Guess the Player</button>
       </div>
     </div>

@@ -2,6 +2,7 @@
   margin-right: 10px;
   background-color: #1D428A;
   border: 2px white solid;
+  border-radius: 4px;
 }
 .navbar:hover {
   background-color: #1851c4;

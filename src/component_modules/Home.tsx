@@ -1,14 +1,10 @@
-import { Header } from "./Header"
+import { Page } from "./Page"
 
 import pageStyles from "../css_modules/Page.module.css"
 
 const Home = () => {
   return (
-    <>
-      <Header />
-      <div className={pageStyles["page"]}></div>
-      <div className={pageStyles["footer"]}></div>
-    </>
+    <Page content={<div className={pageStyles["page"]}>Home</div>}/>
   )
 }
 
